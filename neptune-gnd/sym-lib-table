@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "neptune-gnd")(type "KiCad")(uri "${KIPRJMOD}/neptune-gnd.kicad_sym")(options "")(descr ""))
+)
