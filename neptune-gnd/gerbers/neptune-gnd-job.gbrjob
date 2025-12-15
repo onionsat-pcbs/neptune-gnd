@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "9.0.6"
     },
-    "CreationDate": "2025-12-15T08:35:58+01:00"
+    "CreationDate": "2025-12-15T12:31:01+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -14,8 +14,8 @@
       "Revision": "rev?"
     },
     "Size": {
-      "X": 30.55,
-      "Y": 60.05
+      "X": 35.05,
+      "Y": 50.05
     },
     "LayerNumber": 4,
     "BoardThickness": 1.6,
@@ -27,7 +27,9 @@
       "PadToPad": 0.2,
       "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
-      "MinLineWidth": 0.2
+      "MinLineWidth": 0.1565,
+      "TrackToRegion": 0.5,
+      "RegionToRegion": 0.5
     },
     {
       "Layers": "Inner",
@@ -45,12 +47,12 @@
       "FilePolarity": "Positive"
     },
     {
-      "Path": "neptune-gnd-GND.gbr",
+      "Path": "neptune-gnd-Power.gbr",
       "FileFunction": "Copper,L2,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "neptune-gnd-Power.gbr",
+      "Path": "neptune-gnd-GND.gbr",
       "FileFunction": "Copper,L3,Inr",
       "FilePolarity": "Positive"
     },
@@ -118,20 +120,8 @@
       "Type": "Dielectric",
       "Thickness": 0.1,
       "Material": "FR4",
-      "Name": "F.Cu/GND",
-      "Notes": "Type: dielectric layer 1 (from F.Cu to GND)"
-    },
-    {
-      "Type": "Copper",
-      "Thickness": 0.035,
-      "Name": "GND"
-    },
-    {
-      "Type": "Dielectric",
-      "Thickness": 1.24,
-      "Material": "FR4",
-      "Name": "GND/Power",
-      "Notes": "Type: dielectric layer 2 (from GND to Power)"
+      "Name": "F.Cu/Power",
+      "Notes": "Type: dielectric layer 1 (from F.Cu to Power)"
     },
     {
       "Type": "Copper",
@@ -140,10 +130,22 @@
     },
     {
       "Type": "Dielectric",
+      "Thickness": 1.24,
+      "Material": "FR4",
+      "Name": "Power/GND",
+      "Notes": "Type: dielectric layer 2 (from Power to GND)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "GND"
+    },
+    {
+      "Type": "Dielectric",
       "Thickness": 0.1,
       "Material": "FR4",
-      "Name": "Power/B.Cu",
-      "Notes": "Type: dielectric layer 3 (from Power to B.Cu)"
+      "Name": "GND/B.Cu",
+      "Notes": "Type: dielectric layer 3 (from GND to B.Cu)"
     },
     {
       "Type": "Copper",
