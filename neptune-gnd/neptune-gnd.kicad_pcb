@@ -12094,7 +12094,7 @@
 			(justify bottom mirror)
 		)
 	)
-	(gr_text "revision 1.0\nProject Neptune\n\n"
+	(gr_text "revision 1.1\nProject Neptune\n\n"
 		(at 195.543 77.441869 270)
 		(layer "B.SilkS")
 		(uuid "126f9a6d-5908-46c5-ba39-5b4b2d5a7cf4")
@@ -18058,12 +18058,6 @@
 			"82e7c262-1f8f-4c41-a08c-e5185fb682cb" "8715d84f-99dd-42ea-be8a-67463497641b"
 			"bbc67f75-3758-4b53-96e8-d1d6d585b975" "c2c0a530-2bf5-409c-a436-654a4b454a39"
 			"f0c22afe-7aa5-4c15-a4fc-a4a85787cc57"
-		)
-	)
-	(group ""
-		(uuid "4f39e015-6bb1-4473-8d51-2af9eeb9e8d7")
-		(members "126f9a6d-5908-46c5-ba39-5b4b2d5a7cf4" "4c59ddaf-7f34-4d4f-9444-8f3cf243aee1"
-			"a3982acf-ccbf-485c-ac49-f5d2914e9333"
 		)
 	)
 	(group ""
