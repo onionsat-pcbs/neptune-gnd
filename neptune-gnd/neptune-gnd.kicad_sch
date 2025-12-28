@@ -4441,10 +4441,6 @@
 		(uuid "7cac712b-ab9d-4176-b5e8-cfa0219ffcdb")
 	)
 	(no_connect
-		(at 50.8 85.09)
-		(uuid "80ff13a5-880d-4d29-a696-91ecfe65826e")
-	)
-	(no_connect
 		(at 171.45 58.42)
 		(uuid "8306fada-366b-4964-bef9-d480ce54dcd7")
 	)
@@ -4471,10 +4467,6 @@
 	(no_connect
 		(at 81.28 82.55)
 		(uuid "a3908a78-b230-4a68-9ef3-c220902e8a0d")
-	)
-	(no_connect
-		(at 138.43 173.99)
-		(uuid "bac1cf12-6538-47c5-b179-5329bb22667a")
 	)
 	(no_connect
 		(at 50.8 57.15)
@@ -4633,6 +4625,16 @@
 			(type default)
 		)
 		(uuid "204dc136-08e2-43c3-9641-c442b17c6422")
+	)
+	(wire
+		(pts
+			(xy 140.97 173.99) (xy 138.43 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2081a342-5b00-46ae-8f79-38c3f4a67200")
 	)
 	(wire
 		(pts
@@ -4843,6 +4845,16 @@
 			(type default)
 		)
 		(uuid "54b02656-e24e-443d-bfee-4e03b2834f17")
+	)
+	(wire
+		(pts
+			(xy 45.72 85.09) (xy 50.8 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59e4f287-f529-468f-9874-9f8c8ad135b3")
 	)
 	(wire
 		(pts
@@ -5474,6 +5486,16 @@
 		)
 		(uuid "3b5f0df3-c12f-44df-a354-d2bfaa520c24")
 	)
+	(label "LORA_DIO0"
+		(at 45.72 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "481e825f-abfd-48aa-8d41-4c447beb65bc")
+	)
 	(label "RX"
 		(at 41.91 67.31 180)
 		(effects
@@ -5643,6 +5665,16 @@
 			(justify right bottom)
 		)
 		(uuid "e98e2e13-f6fe-4ae0-96f7-6adc80e359af")
+	)
+	(label "LORA_DIO0"
+		(at 140.97 173.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eecd6d26-75bc-4b22-bc38-bd74c985659e")
 	)
 	(label "USB_DP"
 		(at 177.8 45.72 0)
